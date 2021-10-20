@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body, #root {
+  height: 100%;
+}
+#root, .Counter {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.display  {
+  font-size: 3rem;
+}
+
+.buttons > * {
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  margin: 1rem;
+}
+
